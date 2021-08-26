@@ -1,0 +1,14 @@
+.conteiner{
+    width: 1200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+
+.friendList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

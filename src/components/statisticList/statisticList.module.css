@@ -1,0 +1,27 @@
+.conteiner{
+    width: 1200px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+}
+
+.statList {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.statListItem {
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: lavender;
+}
