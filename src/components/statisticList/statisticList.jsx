@@ -6,7 +6,7 @@ function StatisticList({ items, title }) {
   return (
     <section className="statistics">
       <div className={style.conteiner}>
-        <h2 className={style.title}>{title}</h2>
+        {title ? <h2 className={style.title}>{title}</h2> : ''}
         <ul className={style.statList}>
           {items.map(function (item) {
             return (
